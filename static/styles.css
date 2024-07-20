@@ -1,0 +1,68 @@
+body {
+    background-color: #222222;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.bubble {
+    background-color: #333333;
+    border-radius: 30px;
+    font-size: 2em;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+}
+
+#fileInput {
+    font-size: 0.42em;
+}
+
+#queryInput {
+    width: 100%;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+button {
+    font-size: 0.7em;
+    background-color: #444444;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#fileInput {
+    font-size: 0.6em;
+    background-color: #444444;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#uploadButton {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}

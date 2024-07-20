@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cloudformation Explainer</title>
+    <link href="/static/styles.css" rel="stylesheet"/>
+    <script src="/static/script.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="content">
+      <div class="bubble">
+	<label for="fileInput">Upload a clouformation template:</label>
+	<div>
+	  <input id="fileInput" type="file" multiple/>
+	  <button id="uploadButton" type="submit">
+	    <span>Upload</span>
+	    <img style="display: none" width="20px" height="20px" src="/static/loading.gif"></img>
+	  </button>
+	</div>
+      </div>
+      <div class="bubble queryContainer">
+	<label for="queryInput">Ask a question about your infrastructure:</label>
+	<textarea id="queryInput"></textarea>
+	<button id="queryButton" type="submit">
+	  <span>Query</span>
+	  <img style="display: none" width="20px" height="20px" src="/static/loading.gif"></img>
+	</button>
+      </div>
+    </div>
+  </body>
+</html>
